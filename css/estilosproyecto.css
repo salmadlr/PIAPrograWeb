@@ -1,0 +1,30 @@
+h1 {
+    font-family:Cambria;color:rgb(7, 7, 7);
+    text-align: center;
+    text-decoration: underline;
+}
+-------------------------------------------------------------------------------------------------------------------------
+
+/* Modelo de caja del articulo quee esta en footer */
+
+#mp1 > footer article {
+    background-color:rgb(170, 138, 59);
+    /* Un valor para los 4 lados */
+    padding: 100px;
+}
+
+#mp1 > aside > article:last-child{
+    background-color: rgb(170, 138, 59);
+    width: 1305px;
+    height: 700px;
+    border: 15px dotted rgb(2, 60, 83);
+    padding: 5px;
+    box-sizing:content-box;
+}
+
+--------------------------------------------------------------------------------------------------------------------------
+.contenedor-imagenes img {
+    margin-right: 20px;
+}
+
+
